@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>My Library</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- .container is main centered wrapper -->
+  <div class="container">
+    <div class="row" style="margin-top: 10%;">
+      <div class="one column"> <img class="icon" src="./images/blue-book.svg" alt="blue-book"></div>
+      <div class="eleven columns">
+        <h1>My Library</h1>
+      </div>
+    </div>
+
+    <h5>Add your book here!</h5>
+
+
+    <form action="">
+      <div class="row">
+        <div class="three columns">
+          <label for="title">Title</label>
+          <input type="text" class="u-full-width" id="title">
+        </div>
+        <div class="three columns">
+          <label for="author">Author</label>
+          <input type="text" class="u-full-width" id="author">
+        </div>
+        <div class="three columns">
+          <label for="pages">Pages</label>
+          <input type="text" class="u-full-width" id="pages">
+        </div>
+        <div class="three columns">
+          <label for="status">Status</label>
+          <select name="status" id="status" class="u-full-width">
+            <option value="read">Read</option>
+            <option value="not read">Not read</option>
+          </select>
+        </div>
+      </div>
+      <input class="button-primary" type="submit" value="Add book" id="btnAdd">
+    </form>
+
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Pages</th>
+          <th>Read</th>
+          <th>Remove Books</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="app.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
