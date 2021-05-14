@@ -2,7 +2,7 @@
 
 A book collection manager, where you can add, remove, and update books.
 
-Visit the app homepage [here](https://dticed.github.io/myLibraryApp/) :shipit:
+Visit the app homepage [myLibrary](https://dticed.github.io/myLibraryApp/)
 
 ## Built With
 
